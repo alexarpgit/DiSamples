@@ -1,0 +1,17 @@
+C:\Users\alexpe\source\repos\DiSamples\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\alexpe\source\repos\DiSamples\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\alexpe\source\repos\DiSamples\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache
+C:\Users\alexpe\source\repos\DiSamples\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\alexpe\source\repos\DiSamples\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\alexpe\source\repos\DiSamples\EntityLayer\obj\Debug\EntityLayer.pdb
+C:\transit\DiSamples\EntityLayer\bin\Debug\EntityLayer.dll
+C:\transit\DiSamples\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\transit\DiSamples\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache
+C:\transit\DiSamples\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\transit\DiSamples\EntityLayer\obj\Debug\EntityLayer.dll
+C:\transit\DiSamples\EntityLayer\obj\Debug\EntityLayer.pdb
+D:\Git\DiSamples\EntityLayer\bin\Debug\EntityLayer.dll
+D:\Git\DiSamples\EntityLayer\bin\Debug\EntityLayer.pdb
+D:\Git\DiSamples\EntityLayer\obj\Debug\EntityLayer.csprojAssemblyReference.cache
+D:\Git\DiSamples\EntityLayer\obj\Debug\EntityLayer.dll
+D:\Git\DiSamples\EntityLayer\obj\Debug\EntityLayer.pdb

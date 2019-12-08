@@ -1,0 +1,24 @@
+<div class="row mt-2">
+  <div class="col-md-12">
+    <div class="card card-cascade">
+
+      <div class="view gradient-card-header blue darken-2">
+        <h4 class="h4-responsive text-white m-3 ">Клиенты</h4>
+      </div>
+
+      <div class="card-body">
+
+        <!-- <app-control-table [TableViewData]="clientListView"></app-control-table>       -->
+        <app-control-table></app-control-table>   
+        
+      </div>
+      <div class="card-footer">
+        <button type="button" class="btn btn-primary" mdbWavesEffect (click)="addClientClick()">Добавить</button>
+      </div>
+
+      <modal-add-client (closedModal)="refreshClients()"></modal-add-client> 
+      <modal-edit-client (closedModal)="refreshClients()"></modal-edit-client> 
+      
+    </div>
+  </div>
+</div>

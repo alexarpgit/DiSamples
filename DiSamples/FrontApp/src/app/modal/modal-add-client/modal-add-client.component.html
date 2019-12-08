@@ -1,0 +1,38 @@
+<!--Modal-->
+<div mdbModal #frame="mdbModal" class="modal fade top" id="frameModalTop" tabindex="-1" role="dialog"
+  aria-labelledby="myModalLabel" aria-hidden="true" style="overflow-y: auto" (onHidden)="clearForm()">
+  <!--Dialog-->
+  <div class="modal-dialog modal-notify modal-info" role="document">
+    <!--Content-->
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header text-center">
+        <h4 class="modal-title white-text w-100">
+          Новый клиент
+        </h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="frame.hide()">
+          <span aria-hidden="true" class="white-text">&times;</span>
+        </button>
+      </div>
+      <!--/.Header-->
+
+      <!--Body-->
+      <div class="modal-body" [formGroup]="form">
+        <app-control-input-text [label]="'Наименование'" [inputControl]="form.controls['name']" [isRequired]="true"></app-control-input-text>
+        <app-control-input-text [label]="'ИНН'" [inputControl]="form.controls['inn']"></app-control-input-text>
+      </div>
+      <!--/.Body-->
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center">
+        <button type="button" mdbBtn color="primary" [disabled]="!form.valid" class="waves-effect" mdbWavesEffect (click)="addClick()">
+          Сохранить
+        </button>
+      </div>
+      <!--/.Footer-->
+    </div>
+    <!--/.Content-->
+  </div>
+  <!--/.Dialog-->
+</div>
+<!--/.Modal-->

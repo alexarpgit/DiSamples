@@ -1,0 +1,26 @@
+
+
+<app-control-table-paginator [Page]="tableViewData.Page"></app-control-table-paginator>
+
+<table mdbTable #tableEl="mdbTable">
+    <thead>
+        <tr>
+            <th *ngFor="let head of tableViewData.Columns" scope="col">{{head[1]}} </th>
+            <th *ngIf="showEdit"></th>
+            <th *ngIf="showDelete"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let datarow of tableViewData.Data; let i = index">
+            <td *ngFor="let column of tableViewData.Columns" [style.width]="getColumnWidth(column[2])">
+                {{datarow[column[0]]}}
+            </td>
+            <td *ngIf="showEdit" class="tablecontrol-button">
+                <app-button-edit (clicked)="tableViewData.EditItemCallback(datarow)"></app-button-edit>
+            </td>
+            <td *ngIf="showDelete" class="tablecontrol-button">
+                <app-button-delete (clicked)="tableViewData.DeleteItemCallback(datarow)"></app-button-delete>
+            </td>
+        </tr>
+    </tbody>
+</table>

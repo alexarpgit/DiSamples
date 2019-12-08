@@ -1,0 +1,5 @@
+<div class="md-form mb-5">
+    <label><i title="Обязательное поле" [hidden]="!isRequired" class="fas fa-star fa-xs red-text mr-1"></i>{{label}}</label>
+    <input type="text" class="form-control" mdbInput [formControl]="inputControl">
+    <div [hidden]="inputControl.valid" class="mb-5 input-control-error ">{{errorText}}</div>    
+</div>

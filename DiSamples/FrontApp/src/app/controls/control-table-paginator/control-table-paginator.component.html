@@ -1,0 +1,27 @@
+<div class="items-number">
+        <div class="btn-group">
+            <button type="button" mdbBtn mdbRadio="5" (click)="setItemsOnPage_5()" [(ngModel)]="itemsNumber" color="light-blue" size="sm">5</button>
+            <button type="button" mdbBtn mdbRadio="15" (click)="setItemsOnPage_15()" [(ngModel)]="itemsNumber" color="light-blue" size="sm">15</button>
+            <button type="button" mdbBtn mdbRadio="50" (click)="setItemsOnPage_50()" [(ngModel)]="itemsNumber" color="light-blue" size="sm">50</button>
+          </div>              
+        </div> 
+
+<div class=" mt-3">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-xs-4 text-center"> 
+            <span >
+                <i class="mx-2 fas fa-angle-double-left"></i>
+                <i class="mx-2 fas fa-angle-left"></i>
+            </span>
+            <span class="mx-4">{{Page}}</span>            
+            <span>
+                <i class="mx-2 fas fa-angle-right"></i> 
+                <i class="mx-2 fas fa-angle-double-right"></i>
+            </span>
+        </div> 
+        <div class="col text-right">
+            <span>11 / 26</span>
+        </div>
+    </div> 
+</div>

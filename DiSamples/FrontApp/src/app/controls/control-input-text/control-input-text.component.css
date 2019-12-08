@@ -1,0 +1,5 @@
+.input-control-error{
+    font-size: smaller;    
+    position: absolute;
+    color: crimson;    
+}

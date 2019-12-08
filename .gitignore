@@ -1,0 +1,13 @@
+.vs/*
+DiSamples/.vs/*
+DiSamples/packages/*
+DiSamples/BusinessLogicLayer/bin/*
+DiSamples/BusinessLogicLayer/obj*
+DiSamples/Core/obj/*
+DiSamples/DiSamples/bin/*
+DiSamples/DiSamples/obj/*
+DiSamples/DiSamplesTests/bin/*
+DiSamples/DiSamplesTests/obj/*
+DiSamples/EntityLayer/bin/*
+DiSamples/WebApi/bin/*
+DiSamples/WebApi/obj/*
